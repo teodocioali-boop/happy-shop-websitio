@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online - Sistema E-commerce</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="styled-header">
+            <div class="header-content">
+                <div class="header-image">
+                    <img src="https://scontent.fcbb3-1.fna.fbcdn.net/v/t39.30808-6/334813263_914114556453360_8238516223095300614_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=AiS_yex0pi4Q7kNvwG5ENpl&_nc_oc=Adn98gxJ2tiu1pkdC1ThvSs6OXlWAzE1g-W3E4yBESpGUKEVqEeiDMnuS-Vip84HsAA&_nc_zt=23&_nc_ht=scontent.fcbb3-1.fna&_nc_gid=CxMksb6aAJuqNYpWvaolgg&oh=00_Afgx6xmtGsl6uVcd-_q1nw0msHb1Fy6-HhFg0qPNQAcGfA&oe=691118A2" alt="HAPPY SHOP Logo"> 
+                </div>
+                <h1 class="styled-title">HAPPY SHOP - Tu tienda online en Bolivia</h1>
+                <p class="styled-subtitle">Explora nuestra diversa selección de productos de calidad a precios competitivos ¡Todo lo que necesitas lo tenemos aquí en HAPPY SHOP!</p>
+            </div>
+        </header>
+        <nav class="main-nav">
+            <div class="nav-item active" data-tab="productList">
+                <span class="nav-text">Lista de Productos</span>
+            </div>
+            <div class="nav-item" data-tab="productDetail">
+                <span class="nav-text">Detalle de Producto</span>
+            </div>
+            <div class="nav-item" data-tab="categories">
+                <span class="nav-text">Categorías</span>
+            </div>
+            <div class="nav-item" data-tab="filteredProducts">
+                <span class="nav-text">Productos Filtrados</span>
+            </div>
+            <div class="nav-item" data-tab="reviews">
+                <span class="nav-text">Opiniones</span>
+            </div>
+            <div class="nav-item" data-tab="userProfile">
+                <span class="nav-text">Perfil Usuario</span>
+            </div>
+            <div class="nav-item" data-tab="shoppingCart">
+                <span class="nav-text">Carrito</span>
+            </div>
+            <div class="nav-item" data-tab="orderHistory">
+                <span class="nav-text">Historial Pedidos</span>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div id="contentArea">
+                <div class="welcome-message">
+                    <h2>¡BIENVENIDO AL SISTEMA WEB DE HAPPY SHOP!</h2>
+                    <p>Selecciona una de las opciones del menú superior para comenzar..</p>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <span class="feature-icon"></span>
+                            <h3>Lista de Productos</h3>
+                            <p>Explora todos nuestros productos disponibles</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon"></span>
+                            <h3>Detalle de Producto</h3>
+                            <p>Información completa de cada producto</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon"></span>
+                            <h3>Categorías</h3>
+                            <p>Organiza productos por categorías</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon"></span>
+                            <h3>Productos Filtrados</h3>
+                            <p>Encuentra productos por categoría específica</p>
+                        </div>
+                    </div>
+                    <div class="feature-grid">
+                        <div class="feature-card">
+                            <span class="feature-icon"></span>
+                            <h3>Opiniones</h3>
+                            <p>Lee reseñas de otros clientes</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon"></span>
+                            <h3>Perfil Usuario</h3>
+                            <p>Gestiona tu información personal</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon"></span>
+                            <h3>Carrito</h3>
+                            <p>Gestiona tus productos seleccionados</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon"></span>
+                            <h3>Historial Pedidos</h3>
+                            <p>Revisa tus compras anteriores</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="js/models/dataModels.js"></script>
+    <script src="js/services/apiService.js"></script>
+    <script src="js/components/uiComponents.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
